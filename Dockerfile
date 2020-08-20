@@ -1,4 +1,4 @@
-FROM centos8
+FROM centos:centos8
 RUN touch test
 RUN touch cc
 
