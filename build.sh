@@ -1,0 +1,1 @@
+docker run -ti --rm -v `pwd`:/workspace -v `pwd`/config.json:/kaniko/.docker/config.json:ro registry.cn-hangzhou.aliyuncs.com/launcher/executor:v1.0.0 --dockerfile=Dockerfile --destination=keep-year-xlauncher1.lstack.com.cn/library/cloud:1353 --verbosity=debug
